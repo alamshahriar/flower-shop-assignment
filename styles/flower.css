@@ -1,0 +1,160 @@
+body,
+p,
+h1,
+h1,
+h3,
+h4,
+h5,
+h6,
+div,
+img {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    margin: 0;
+    padding: 0
+}
+
+/* common shared style */
+.text-title {
+    color: #272727;
+    font-size: 40px;
+}
+
+.text-description {
+    color: #FCEEF1;
+    font-size: 18px;
+}
+
+.btn-primary {
+    background-color: #E55473;
+    color: #FFFFFF;
+    border-radius: 8px;
+    padding: 20px 43px;
+    border: none;
+    margin-top: 32px;
+}
+
+.container {
+    max-width: 1440px;
+    margin: auto;
+
+}
+
+/* nav related style */
+
+
+.hero {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+
+.hero-img {
+    text-align: right;
+}
+
+.nav-title {
+    color: #272727;
+    font-size: 80px;
+    line-height: 1.2em;
+    font-weight: 900;
+    margin-bottom: 32px;
+}
+
+.let-make {}
+
+.hero-description {
+    max-width: 634px;
+    color: #6d6868d0;
+    font-size: 18px;
+
+
+
+}
+
+.header {
+    background: #FCEEF1;
+
+}
+
+/* main related style */
+.flower {
+    text-align: center;
+    margin-top: 167px;
+}
+
+.featured-description {
+    color: #847E80;
+    font-size: 18px;
+    max-width: 694px;
+    margin: auto;
+    margin-top: 24px;
+    margin-bottom: 48px;
+}
+
+.different-flowers {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    text-align: center;
+
+}
+
+
+.flower-box {
+    min-height: 538px;
+    background: #847E80;
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+
+.different-flowers-pink .flower-box {
+    background-color: #F2DEE7;
+}
+
+.different-flowers-red .flower-box {
+    align-items: center;
+    background-color: #D9EFF1;
+}
+
+.different-flowers-yellow .flower-box {
+    background-color: #E3EBDB;
+}
+
+.featured-title {
+    margin-top: 32px;
+    text-decoration: underline;
+}
+
+.flower-services {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    background-color: #F4F4F4;
+    margin-top: 128px;
+}
+
+.sale-offer {
+    text-align: center;
+}
+
+.offer-img {
+    text-align: right;
+}
+
+.sales-title {
+    color: #272727;
+    font-size: 40px;
+}
+
+.sales-description {
+    color: #9B9799;
+    font-size: 18px;
+}

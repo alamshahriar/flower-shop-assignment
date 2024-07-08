@@ -44,8 +44,7 @@ body {
 
 }
 
-/* nav related style */
-
+/* hero related style */
 
 .hero {
     display: grid;
@@ -65,15 +64,10 @@ body {
     margin-bottom: 32px;
 }
 
-.let-make {}
-
 .hero-description {
     max-width: 634px;
     color: #6d6868d0;
     font-size: 18px;
-
-
-
 }
 
 .header {
@@ -136,13 +130,26 @@ body {
 .flower-services {
     display: flex;
     text-align: center;
-    justify-content: space-between;
+    justify-content: space-around;
     background-color: #F4F4F4;
     margin-top: 128px;
+    padding: 86px 175px;
+}
+
+.limited-offer {
+    background-color: #FEF6F8;
+    margin-top: 128px;
+}
+
+.offer-time {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .sale-offer {
     text-align: center;
+    max-width: 594px;
 }
 
 .offer-img {
@@ -155,6 +162,86 @@ body {
 }
 
 .sales-description {
+    max-width: ;
     color: #9B9799;
     font-size: 18px;
+}
+
+
+.instagram {
+    text-align: center;
+
+}
+
+.insta-title {
+    color: #272727;
+    font-size: 40px;
+}
+
+.insta-description {
+    color: #9B9799;
+    font-size: 18px;
+
+}
+
+.deals-body {
+    text-align: center;
+    margin-top: 128px;
+    background-image: url("../Flower Asset/Rectangle\ 9.png ");
+}
+
+.deals-title {
+    color: #272727;
+    font-size: 40px;
+    padding-top: 128px;
+    margin-bottom: 16px;
+
+}
+
+.deals-description {
+    color: #9B9799;
+    font-size: 18px;
+}
+
+input[type="email"] {
+    background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+    width: 700px;
+    padding: 22px;
+    margin-bottom: 121px;
+    margin-right: 16px;
+}
+
+/* footer related style */
+.footer-column {
+    background-color: #111010;
+    text-align: center;
+    margin-top: 128px;
+    padding-top: 128px;
+}
+
+.shop-title {
+    color: #272727;
+    font-size: 40px;
+    margin-bottom: 24px;
+}
+
+.flower-color {
+    color: #E55473;
+}
+
+.shop-color {
+    color: #FFFFFF;
+}
+
+.shop-description,
+.year-description {
+    color: #9B9799;
+    font-size: 18px;
+}
+
+.year-description {
+    padding-top: 32px;
+    padding-bottom: 128px;
 }

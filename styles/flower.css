@@ -162,7 +162,6 @@ body {
 }
 
 .sales-description {
-    max-width: ;
     color: #9B9799;
     font-size: 18px;
 }
@@ -179,9 +178,18 @@ body {
 }
 
 .insta-description {
+    max-width: 594px;
+    margin: auto;
     color: #9B9799;
     font-size: 18px;
 
+}
+
+.flower-img {
+    margin-top: 48px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
 }
 
 .deals-body {
@@ -239,6 +247,8 @@ input[type="email"] {
 .year-description {
     color: #9B9799;
     font-size: 18px;
+    max-width: 594px;
+    margin: auto;
 }
 
 .year-description {
